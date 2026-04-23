@@ -1,0 +1,15 @@
+// ltl-rsa-toy/main.ltl
+//
+// Textbook RSA key-gen / encrypt / decrypt for teaching.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-rsa-toy v0.1.0")
+    io::println("Textbook RSA key-gen / encrypt / decrypt for teaching.")
+    0
+}
